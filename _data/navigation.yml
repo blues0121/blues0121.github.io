@@ -1,6 +1,20 @@
 header:
   - titles:
       # @start locale config
+      en      : &EN       Home
+      zh-Hans : &ZH_HANS  主页
+      # @end locale config
+    url: https://blues0121.github.io
+
+  - titles:
+      # @start locale config
+      en      : &EN       Docs
+      zh-Hans : &ZH_HANS  文档
+      # @end locale config
+    url: /2018/07/01/welcome.html
+    
+  - titles:
+      # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
       en-US   : *EN
@@ -50,3 +64,39 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       GitHub
+      zh-Hans : &ZH_HANS  GitHub
+      # @end locale config
+    url: https://github.com/blues0121
+    
+docs-zh:
+  - title:      开始
+    children:
+      - title:  欢迎
+        url:    /2018/07/01/welcome.html
+
+  - title:      有关文献
+    children:
+      - title:  阅读方式
+        url:    /docs/zh/configuration
+      - title:  文献列表
+        url:    /archive.html
+
+  - title:      插件
+    children:
+      - title:  Mathjax
+        url:    /2017/07/07/mathjax.html
+      - title:  Mermaid
+        url:    /2017/06/06/mermaid.html
+      - title:  Chart
+        url:    /2017/05/05/chart.html
+
+  - title:      最后
+    children:
+      - title:  关于我
+        url:    /about.html
+      - title:  创建属于你的Blog
+        url:    /about.html
