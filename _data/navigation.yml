@@ -80,8 +80,6 @@ docs-zh:
 
   - title:      有关文献
     children:
-      - title:  阅读方式
-        url:    /docs/zh/configuration
       - title:  文献列表
         url:    /archive.html
 
