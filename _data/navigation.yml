@@ -76,7 +76,7 @@ docs-zh:
   - title:      欢迎
     children:
       - title:  关于我
-        url:    About.html
+        url:    about.html
 
   - title:      有关文献
     children:
