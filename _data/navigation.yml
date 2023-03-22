@@ -73,10 +73,10 @@ header:
     url: https://github.com/blues0121
     
 docs-zh:
-  - title:      开始
+  - title:      欢迎
     children:
-      - title:  欢迎
-        url:    /2018/07/01/welcome.html
+      - title:  关于我
+        url:    About.html
 
   - title:      有关文献
     children:
@@ -86,15 +86,13 @@ docs-zh:
   - title:      插件
     children:
       - title:  Mathjax
-        url:    /2017/07/07/mathjax.html
+        url:    /2023/02/20/mathjax.html
       - title:  Mermaid
-        url:    /2017/06/06/mermaid.html
+        url:    /2023/02/20/mermaid.html
       - title:  Chart
-        url:    /2017/05/05/chart.html
+        url:    /2023/02/20/chart.html
 
   - title:      最后
     children:
-      - title:  关于我
-        url:    /about.html
       - title:  创建属于你的Blog
-        url:    /about.html
+        url:    /2023/02/15/jekyll.html
